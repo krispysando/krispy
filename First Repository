@@ -1,0 +1,33 @@
+<!<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="It get's better">
+    <title>How's Your Day?</title>
+  </head>
+
+  <body>
+    <style>
+    h1 {
+      text-align: center;
+    }
+    section {
+      text-align:center;
+    }
+      </style>
+
+    <header>
+      <h1 style="font-family: 'Helvetica';">
+        How's Your Day?
+      </h1>
+    </header>
+
+      <section>
+
+        <input type="button" onclick="alert('Gotcha. Do your best to keep your head up!')" value="Not Great">
+        <input type="button" onclick="alert('Today is almost over! Try your best to be a little bit better than yesterday!')" value="Just Another Day">
+        <input type="button" onclick="alert('Nice! Keep up the good work!')" value="Amazing!">
+
+      </section>
+  </body>
+</html>
